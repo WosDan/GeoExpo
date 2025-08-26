@@ -2,9 +2,11 @@ const tierra = new Image()
 const espacio = new Image()
 let start = Date.now()
 
-let angle = 270
+let angle = 10
 
+const angleInput = document.getElementById("angle");
 const ctx = document.getElementById("canvas").getContext("2d");
+
 
 function init(){
     espacio.src = "src/img/espacio.png";
@@ -12,6 +14,11 @@ function init(){
     window.requestAnimationFrame(draw);
 }
 
+function changeAngle(){
+    angle = angleInput.value
+}
+
+angleInput.addEventListener("input", changeAngle)
 
 function draw(){
     ctx.clearRect(0, 0, 1000, 1000)
@@ -44,7 +51,17 @@ function draw(){
     ctx.translate(centerX + xr, centerY - yr);  
     
     ctx.beginPath()
-    ctx.arc(0, 0, 5, 0, .5*Math.PI, true);
+    ctx.arc(0, 0, 5, 0, 2*Math.PI);
+    ctx.fillStyle = "#727070"
+    ctx.fill();
+    ctx.stroke();
+    
+    ctx.translate(-(centerX + xr), -(centerY - yr))
+    xr = x * Math.cos(theta) + y * Math.sin(-theta);
+    yr = -x * Math.sin(-theta) + y * Math.cos(-theta);
+    ctx.translate(centerX - xr, centerY -yr);  
+    ctx.beginPath()
+    ctx.arc(0, 0, 5, 0, 2*Math.PI);
     ctx.fillStyle = "#727070"
     ctx.fill();
     ctx.stroke();
