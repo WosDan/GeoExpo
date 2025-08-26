@@ -12,21 +12,22 @@ function init(){
     window.requestAnimationFrame(draw);
 }
 
+
 function draw(){
     ctx.clearRect(0, 0, 1000, 1000)
     ctx.drawImage(espacio, 0, 0, 1000, 1000)
     //Set up Earth
     ctx.drawImage(tierra, 75, 75, 850, 850)
-    window.requestAnimationFrame(draw)
     ctx.save()
 
-    let s10cycle = ((Date.now() - start)/ 1000 )%4
+    let scycle = ((Date.now() - start)/ 1000 )%4
 
     // let x = s10cycle*5
     // let y = Math.sin((s10cycle/10)*4*Math.PI/3)*100
     
-    let x = (s10cycle)*40
-    let y = (100/(s10cycle+10)-10)*40
+    let x = (scycle)*40
+    let y = (100/(scycle+10)-10)*40
+
     theta = -angle*Math.PI/180
     thetaOrbit = angle*Math.PI/180;
     let xr = x * Math.cos(theta) - y * Math.sin(theta);
@@ -35,18 +36,21 @@ function draw(){
     theta = angle*Math.PI/180;
     let cx = 500; 
     let cy = 500;
-    let rOrbit = 250;
+    let rOrbit = 225;
 
     let centerX = cx + rOrbit * Math.sin(thetaOrbit);
     let centerY = cy - rOrbit * Math.cos(thetaOrbit);
 
     ctx.translate(centerX + xr, centerY - yr);  
+    
     ctx.beginPath()
-    ctx.arc(0, 0, 10, 0, 2*Math.PI);
+    ctx.arc(0, 0, 5, 0, .5*Math.PI, true);
+    ctx.fillStyle = "#727070"
     ctx.fill();
-    ctx.fillStyle = "grey"
     ctx.stroke();
     ctx.restore()
+
+    window.requestAnimationFrame(draw)
 }
 
 init()
