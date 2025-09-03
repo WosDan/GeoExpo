@@ -38,10 +38,6 @@ function draw(){
     //Theta1 es el ángulo que da el usuario pero al revés de tal forma que, 
     //Cuando se mueva la función Orbit, esta rote con la función Rot de manera invertida, para que se vea acorde a la orbitación.
     //ThetaOrbit es el ángulo que da el usuario de donde sale el sismo.
-    
-
-    let x1 = (scycle)*40
-    let y1 = (100/(scycle+10)-10)*40
 
     theta1 = -angle*Math.PI/180
     thetaOrbit1 = angle*Math.PI/180;
