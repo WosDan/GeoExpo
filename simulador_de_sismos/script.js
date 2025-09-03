@@ -51,31 +51,6 @@ function draw(){
         [(scycle)*40, -(scycle)*20],
         [(scycle)*40, -Math.pow(scycle, 2)*20]
     ]
-    
-    // for(let i = 0; i < 3; i++){
-    //     for(let j = 0; j < 2; j++){
-    //         let posorbit = Orbit(500, 500, 225, thetaOrbit1)  
-    //         let pos
-    //         if(j%2==0){
-    //             pos = Rot(funciones[i][0], funciones[i][1], theta1)  
-    //             ctx.translate(posorbit[0] + pos[0], posorbit[1] - pos[1]);      
-    //         }else{
-    //             pos = Rot(funciones[i][0], funciones[i][1], -theta1)  
-    //             ctx.translate(posorbit[0] - pos[0], posorbit[1] - pos[1]);  
-    //         }
-    //         ctx.beginPath()
-    //         ctx.arc(0, 0, 5, 0, 2*Math.PI);
-    //         ctx.fillStyle = "#727070"
-    //         ctx.fill();
-    //         ctx.stroke();  
-
-    //         if(j%2 == 0){
-    //             ctx.translate(-(posorbit[0] + pos[0]), -(posorbit[1] - pos[1]))               
-    //         }else{
-    //             ctx.translate(-(posorbit[0] - pos[0]), -(posorbit[1] -pos[1]))
-    //         } 
-    //     }
-    // }
 
     //Matriz de rotación para rotar la función
     //Rot Permite rotar sobre si mismo cualquier cosa, en este caso lo utilicé para una función
