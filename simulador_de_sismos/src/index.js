@@ -1,4 +1,4 @@
-import Collisions from "collisions"
+const col = require('collisions')
 const tierra = new Image()
 const espacio = new Image()
 let start = Date.now()
@@ -10,14 +10,16 @@ const ctx = document.getElementById("canvas").getContext("2d");
 
 
 function init(){
-    espacio.src = "src/img/espacio.png";
-    tierra.src = "src/img/tierra.png";
+    espacio.src = "./img/espacio.png";
+    tierra.src = "./img/tierra.png";
     window.requestAnimationFrame(draw);
 }
 
 function changeAngle(){
     angle = angleInput.value
 }
+
+console.log(ctx)
 
 angleInput.addEventListener("input", changeAngle)
 
@@ -36,7 +38,16 @@ function draw(timestamp){
     if (!start) start = timestamp;
 
   let elapsed = (timestamp - start) / 1000; // tiempo en segundos desde inicio
-  let scycle = elapsed % 4; //Ciclo
+  let scycle = elapsed % 4;
+
+    ctx.fillStyle = 'blue';
+    ctx.strokeStyle = 'black';
+    ctx.lineWidth = 3;
+
+    ctx.beginPath();
+    ctx.rect(100, 100, 150, 150);  // x, y, ancho, alto
+    ctx.fill();
+    ctx.stroke();
 
     window.requestAnimationFrame(draw)
 }
