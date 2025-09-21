@@ -76,8 +76,6 @@ function draw(){
     //Orbit es el método que hace que se mueva el punto o cualquier cosa alrededor de una orbita.
     //Orbit(posición x de en lo que orbita, posición y de en lo que orbita, radio de la orbita, Angulo de donde está en la orbita)
     let posorbit = Orbit(500, 500, 225, thetaOrbit1)
-    
-
 
     ctx.translate(posorbit[0] + pos[0] + pinkV[0], posorbit[1] - pos[1]- pinkV[1]) 
     
