@@ -1,0 +1,1 @@
+bind p says smoked
