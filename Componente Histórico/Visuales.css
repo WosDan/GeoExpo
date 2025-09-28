@@ -14,7 +14,7 @@
   border-radius: 15px;
   max-width: 600px;
   text-align: center;
-  box-shadow: 5px 2px 5px rgba(24, 23, 23, 0.8);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
 
 #historia {
@@ -33,7 +33,7 @@
   border-radius: 15px;
   max-width: 600px;
   text-align: center;
-  box-shadow: 5px 2px 5px rgba(24, 23, 23, 0.8);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
 
 #principios {
@@ -52,7 +52,7 @@
   border-radius: 15px;
   max-width: 600px;
   text-align: center;
-  box-shadow: 5px 2px 5px rgba(24, 23, 23, 0.8);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
 
 #grafico {
@@ -71,7 +71,7 @@
   border-radius: 15px;
   max-width: 600px;
   text-align: center;
-  box-shadow: 5px 2px 5px rgba(24, 23, 23, 0.8);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
 
 .navegacion {
@@ -94,27 +94,28 @@
 }
 
 body {
-  font-family: 'Spectral', serif;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: 400;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  background-color: #f0f0f0;
-  color: #333;
   line-height: 1.6;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
 }
 
 h1, h2, h3 {
   font-weight: 700; 
-  color: #444;
+  color: black;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
 }
 
 .menu {
   cursor: pointer;
-  background-color: #e0e0e0;
+  background-color: rgba(206, 202, 202, 0.9);
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 15px;
   margin-top: 10px;
-  transition: background-color 0.3s ease;
+  color: black;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
 }
 
 .desple {
@@ -123,5 +124,12 @@ h1, h2, h3 {
   padding: 10px;
   background-color: #f9f9f9;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+}
+
+.desple p {
+  margin: 0;
+  padding: 0;
+  color: black;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
 }
