@@ -2,10 +2,10 @@
   min-height: 100vh;
   background-size: cover;
   background-attachment: scroll;
-  background-image: url("Fondo.png");               
-  display: flex;                      
-  justify-content: center;            
-  align-items: center;                
+  background-image: url("Fondo.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .intro1 {
@@ -21,10 +21,10 @@
   min-height: 100vh;
   background-size: cover;
   background-attachment: scroll;
-  background-image: url("Fondo.png");               
-  display: flex;                      
-  justify-content: center;            
-  align-items: center;                      
+  background-image: url("Fondo.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .historia1 {
@@ -40,10 +40,10 @@
   min-height: 100vh;
   background-size: cover;
   background-attachment: scroll;
-  background-image: url("Fondo.png");               
-  display: flex;                      
-  justify-content: center;            
-  align-items: center;                         
+  background-image: url("Fondo.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .principios1 {
@@ -59,10 +59,10 @@
   min-height: 100vh;
   background-size: cover;
   background-attachment: scroll;
-  background-image: url("Fondo.png");               
-  display: flex;                      
-  justify-content: center;            
-  align-items: center;                       
+  background-image: url("Fondo.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grafico1 {
@@ -77,8 +77,8 @@
 .navegacion {
   background-color: rgba(206, 202, 202, 0.9);
   margin: 0 auto;
-  justify-content: center;            
-  align-items: center;   
+  justify-content: center;
+  align-items: center;
   text-align: center;
   border: 5px solid rgba(137, 136, 136, 0.9);
   border-radius: 20px;
@@ -94,7 +94,7 @@
 }
 
 body {
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
@@ -102,8 +102,10 @@ body {
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
 }
 
-h1, h2, h3 {
-  font-weight: 700; 
+h1,
+h2,
+h3 {
+  font-weight: 700;
   color: black;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
 }
@@ -132,4 +134,15 @@ h1, h2, h3 {
   padding: 0;
   color: black;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.12);
+}
+
+.imagensvg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagensvg svg {
+  max-width: 100%;
+  height: auto;
 }
