@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Visuales.css" />
+    <link rel="stylesheet" href="Visuales.css" /> <!--Se enlaza el HTML al archivo del CSS para que los cambios visuales puedan tener efecto -->
+    
+    <!--Se enlaza el HTML a una fuente de texto externa -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,8 +15,11 @@
     <title>Historia</title>
   </head>
   <body>
+
+    <!--Se establecen clases e IDs para modificar solamente aquellos elementos/bloques que hagan parte de una misma tematica/parte, con el CSS o JS-->
     <section id="historia">
       <div class="historia1">
+        <!--Este es el panel de navegación para las diferentes páginas del componente histórico -->
         <nav class="navegacion">
           <a href="PaginaPrincipal.html">Inicio</a> |
           <a href="Grafico.html">Grafico</a> |
@@ -22,6 +27,7 @@
           <a href="Principios Físicos.html">Principios Físicos</a>
         </nav>
 
+        <!--Contenido de la seccion-->
         <h2>Historia del descubrimiento</h2>
         <p>
           Hace poco más de 100 años, la estructura interna de nuestro planeta
@@ -60,5 +66,8 @@
         </p>
       </div>
     </section>
+
+    <!--Se enlaza el HTML al archivo del JavaScript para que las adiciones puedan tener efecto -->
+    <script src="Adiciones.js"></script>
   </body>
 </html>

@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Visuales.css" />
+    <link rel="stylesheet" href="Visuales.css" /> <!--Se enlaza el HTML al archivo del CSS para que los cambios visuales puedan tener efecto -->
+   
+    <!--Se enlaza el HTML a una fuente de texto externa -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,8 +15,11 @@
     <title>Principios Fisicos</title>
   </head>
   <body>
+
+    <!--Se establecen clases e IDs para modificar solamente aquellos elementos/bloques que hagan parte de una misma tematica/parte, con el CSS o JS-->
     <section id="principios">
       <div class="principios1">
+        <!--Este es el panel de navegación para las diferentes páginas del componente histórico -->
         <nav class="navegacion">
           <a href="PaginaPrincipal.html">Inicio</a> |
           <a href="Grafico.html">Grafico</a> |
@@ -22,8 +27,11 @@
           <a href="Principios Físicos.html">Principios Físicos</a>
         </nav>
 
+        <!--Contenido de la seccion-->
         <h2>Principios físicos empleados</h2>
 
+
+        <!--Se encierra cada explicacion de los principios fisicos en un apartado diferente para despues organizarlos en el menu desplegable, se realiza en el archivo de JS-->
         <article>
           <h3 class="menu">Ondas</h3>
           <div class="desple">
@@ -130,6 +138,8 @@
         </article>
       </div>
     </section>
+
+    <!--Se enlaza el HTML al archivo del JavaScript para que las adiciones puedan tener efecto -->
     <script src="Adiciones.js" defer></script>
   </body>
 </html>

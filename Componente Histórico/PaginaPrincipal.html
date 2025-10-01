@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Visuales.css" />
+    <link rel="stylesheet" href="Visuales.css" /> <!--Se enlaza el HTML al archivo del CSS para que los cambios visuales puedan tener efecto -->
+    
+    <!--Se enlaza el HTML a una fuente de texto externa -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,8 +15,11 @@
     <title>Estructura de la Tierra y el descubrimiento de sus capas</title>
   </head>
   <body>
+
+    <!--Se establecen clases e IDs para modificar solamente aquellos elementos/bloques que hagan parte de una misma tematica/parte, con el CSS o JS-->
     <section id="intro">
       <div class="intro1">
+        <!--Este es el panel de navegación para las diferentes páginas del componente histórico -->
         <nav class="navegacion">
           <a href="PaginaPrincipal.html">Inicio</a> |
           <a href="Grafico.html">Grafico</a> |
@@ -27,6 +32,8 @@
           <p>¿Cómo la Física permitió descubrir sus capas internas?</p>
         </header>
 
+        
+        <!--Contenido -->
         <h2>Contexto</h2>
         <p>
           ¿Cómo podemos saber qué hay en el centro de la Tierra si nunca hemos
@@ -42,6 +49,7 @@
       </div>
     </section>
 
+    <!--Se enlaza el HTML al archivo del JavaScript para que las adiciones puedan tener efecto -->
     <script src="Adiciones.js"></script>
   </body>
 </html>

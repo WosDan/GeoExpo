@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Visuales.css" />
+    <link rel="stylesheet" href="Visuales.css" /> <!--Se enlaza el HTML al archivo del CSS para que los cambios visuales puedan tener efecto -->
+    
+    <!--Se enlaza el HTML a una fuente de texto externa -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,8 +15,11 @@
     <title>Gráfico</title>
   </head>
   <body>
+
+    <!--Se establecen clases e IDs para modificar solamente aquellos elementos/bloques que hagan parte de una misma tematica/parte, con el CSS o JS-->
     <section id="grafico">
       <div class="grafico1">
+        <!--Este es el panel de navegación para las diferentes páginas del componente histórico -->
         <nav class="navegacion">
           <a href="PaginaPrincipal.html">Incio</a> |
           <a href="Grafico.html">Grafico</a> |
@@ -22,8 +27,11 @@
           <a href="Principios Físicos.html">Principios Físicos</a>
         </nav>
 
+        <!--Contenido-->
         <h2>Capas de la Tierra</h2>
 
+
+         <!--Imagen SVG usada para establecer el grafico de las capas de la tierra y sus discontinuidades-->
         <div class="imagensvg">
           <svg
 viewBox="0 0 890 675"
@@ -32,6 +40,7 @@ viewBox="0 0 890 675"
       xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       preserveAspectRatio="xMidYMid meet"
+      
  <title>Drawing</title>
  <defs>
   <linearGradient id="svg_97">
@@ -172,6 +181,8 @@ viewBox="0 0 890 675"
   <rect id="svg_346" height="1" width="0" y="276.99999" x="-62.00001" stroke="#000" fill="none"/>
   <rect id="svg_349" height="1" width="0" y="353.99999" x="1024.99998" stroke="#000" fill="#ffffff"/>
  </g>
+
+  <!--Esta parte son los textos que indican el nombre de cada capa y discontinuidad, junto a un rectangulo de fondo para hacer el texo mas legible y estetico-->
  <g class="rectangulo" id="corteza">
   <rect x="597" y="209" width="65" height="20" rx="6" ry="6" fill="grey"/>
              <text
@@ -321,6 +332,7 @@ viewBox="0 0 890 675"
     </section>
       </div>
 
+       <!--Ventanas de dialogo para cuando el usuario haga click sobre cada caja de texto -->
       <dialog id="dialog-corteza">
     <h2>Corteza</h2>
     <p>Esta es la capa donde vivimos. Es solida y muy delgada comparada con las demás. Está hecha principalmente de dos tipos de roca: granito en los continentes y basalto en el fondo de los océanos. Es la capa más fría y rígida de todas. </p>
@@ -375,7 +387,7 @@ viewBox="0 0 890 675"
     <button onclick="document.getElementById('dialog-dLehmann').close()">Cerrar</button>
   </dialog>
 
-
+    <!--Se enlaza el HTML al archivo del JavaScript para que las adiciones puedan tener efecto -->
     <script src="Adiciones.js" defer></script>
   </body>
 </html>
