@@ -69,7 +69,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
   border-radius: 15px;
-  max-width: 600px;
+  max-width: 1200px;
   text-align: center;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
@@ -143,6 +143,73 @@ h3 {
 }
 
 .imagensvg svg {
-  max-width: 100%;
+  width: 120%;
   height: auto;
 }
+
+.rectangulo:hover rect {
+  fill: #66ccff;
+  cursor: pointer;
+}
+
+.rectangulo:hover text {
+  fill: "white";
+  font-weight: bold;
+}
+
+.grafico1 svg {
+  width: 670px;
+  height: auto;
+}
+
+.rectangulo2:hover rect {
+  fill: #0f766e;
+  cursor: pointer;
+}
+
+.rectangulo2:hover text {
+  fill: "white";
+  font-weight: bold;
+}
+
+dialog {
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  font-family: 'Spectral', sans-serif;
+  line-height: 1.5;
+  max-width: 400px;
+}
+
+dialog h2 {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+}
+
+dialog p {
+  margin: 15px 0;
+  text-align: justify;
+  color: #444;
+}
+
+dialog button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 18px;
+  font-size: 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #4a90e2;
+  color: white;
+  font-weight: 500;
+}
+
+dialog button:hover {
+  background: #357abd;
+}
+
