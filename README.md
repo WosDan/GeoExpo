@@ -81,19 +81,6 @@ la **página web** (HTML, CSS, JS) y el **simulador desarrollado en Godot Engine
 
 ---
 
-## Integración entre web y simulador
-
-Aunque son componentes separados, la página web sirve como **plataforma de acceso y contexto teórico** para el simulador, mientras que este último ofrece **una visualización interactiva de las ondas P** en las capas terrestres.
-
-La integración se plantea de la siguiente manera:
-1. La página web presenta el componente histórico y teoría.  
-2. El simulador permite experimentar con variables y observar los resultados en tiempo real.  
-3. Ambos comparten un lenguaje visual coherente (paleta de colores, tipografía y estilo educativo).  
-
-> Esto garantiza que la experiencia sea unificada, didáctica y atractiva para el usuario.
-
----
-
 ## Posibles mejoras o futuras versiones
 
 Algunas ideas para ampliar o mejorar el proyecto en el futuro:
