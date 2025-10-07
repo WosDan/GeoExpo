@@ -77,7 +77,7 @@
   align-items: center;
 }
 
-.simulador-iframe {
+#simulador-iframe {
   width: 600px;
   height: 600px;
 }
