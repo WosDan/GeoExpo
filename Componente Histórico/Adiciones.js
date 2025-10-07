@@ -14,62 +14,79 @@ menu.forEach((e) => {
 let botonCorteza = document.getElementById("corteza");
 let dialogCorteza = document.getElementById("dialog-corteza");
 
-botonCorteza.addEventListener("click", () => {
-  dialogCorteza.showModal();
-});
+if(botonCorteza){
+  botonCorteza.addEventListener("click", () => {
+    dialogCorteza.showModal();
+  });
+}
 
 let botonMantoSup = document.getElementById("mantosup");
 let dialogMantoSup = document.getElementById("dialog-mantoSup");
 
-botonMantoSup.addEventListener("click", () => {
+if(botonMantoSup){
+  botonMantoSup.addEventListener("click", () => {
   dialogMantoSup.showModal();
-});
+  });
+}
 
 let botonManto = document.getElementById("manto");
 let dialogManto = document.getElementById("dialog-manto");
 
-botonManto.addEventListener("click", () => {
+if(botonManto){
+  botonManto.addEventListener("click", () => {
   dialogManto.showModal();
-});
+  });
+}
 
 let botonNExt = document.getElementById("nExt");
 let dialogNExt = document.getElementById("dialog-nExt");
 
-botonNExt.addEventListener("click", () => {
+if(botonNExt){
+  botonNExt.addEventListener("click", () => {
   dialogNExt.showModal();
-});
+  });
+}
 
 let botonNInt = document.getElementById("nInt");
 let dialogNInt = document.getElementById("dialog-nInt");
 
-botonNInt.addEventListener("click", () => {
+if(botonNInt){
+  botonNInt.addEventListener("click", () => {
   dialogNInt.showModal();
-});
+  });
+}
 
 let botonDMoho = document.getElementById("dMoho");
 let dialogDMoho = document.getElementById("dialog-dMoho");
 
-botonDMoho.addEventListener("click", () => {
+if(botonDMoho){
+  botonDMoho.addEventListener("click", () => {
   dialogDMoho.showModal();
-});
+  });
+}
 
 let botonDRepetti = document.getElementById("dRepetti");
 let dialogDRepetti = document.getElementById("dialog-dRepetti");
 
-botonDRepetti.addEventListener("click", () => {
+if(botonDRepetti){
+  botonDRepetti.addEventListener("click", () => {
   dialogDRepetti.showModal();
-});
+  });  
+}
 
 let botonDGutenberg = document.getElementById("dGutenberg");
 let dialogDGutenberg = document.getElementById("dialog-dGutenberg");
 
-botonDGutenberg.addEventListener("click", () => {
+if(botonDGutenberg){
+  botonDGutenberg.addEventListener("click", () => {
   dialogDGutenberg.showModal();
-});
+  });
+}
 
 let botonDLehmann = document.getElementById("dLehmann");
 let dialogDLehmann = document.getElementById("dialog-dLehmann");
 
-botonDLehmann.addEventListener("click", () => {
+if(botonDLehmann)
+  botonDLehmann.addEventListener("click", () => {
   dialogDLehmann.showModal();
 });
