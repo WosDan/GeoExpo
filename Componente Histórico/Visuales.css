@@ -1,4 +1,4 @@
-#intro {
+.seccion {
   min-height: 100vh;
   background-size: cover;
   background-attachment: scroll;
@@ -9,91 +9,13 @@
   align-items: center;
 }
 
-.intro1 {
+.marco {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
   border-radius: 15px;
-  max-width: 700px;
+  width: 700px;
   text-align: center;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
-}
-
-#historia {
-  min-height: 100vh;
-  background-size: cover;
-  background-attachment: scroll;
-  background-image: url("Fondo.png");
-  background-position-x: center;
-  display: flex;
-  justify-content: center;
   align-items: center;
-}
-
-.historia1 {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 30px;
-  border-radius: 15px;
-  max-width: 700px;
-  text-align: center;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
-}
-
-#principios {
-  min-height: 100vh;
-  background-size: cover;
-  background-attachment: scroll;
-  background-image: url("Fondo.png");
-  background-position-x: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.principios1 {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 30px;
-  border-radius: 15px;
-  max-width: 700px;
-  text-align: center;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
-}
-
-#grafico {
-  min-height: 100vh;
-  background-size: cover;
-  background-attachment: scroll;
-  background-image: url("Fondo.png");
-  background-position-x: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.grafico1 {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 30px;
-  border-radius: 15px;
-  max-width: 1200px;
-  text-align: center;
-  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
-}
-
-#simulador {
-  min-height: 100vh;
-  background-size: cover;
-  background-attachment: scroll;
-  background-image: url("Fondo.png");
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.simulador1 {
-  background-color: rgba(255, 255, 255, 0.8);
-  padding: 30px;
-  border-radius: 15px;
-  max-width: 1200px;
-  text-align: center;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
 
