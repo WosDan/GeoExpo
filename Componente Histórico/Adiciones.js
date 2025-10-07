@@ -14,9 +14,11 @@ menu.forEach((e) => {
 let botonCorteza = document.getElementById("corteza");
 let dialogCorteza = document.getElementById("dialog-corteza");
 
-botonCorteza.addEventListener("click", () => {
-  dialogCorteza.showModal();
-});
+if(botonCorteza){
+  botonCorteza.addEventListener("click", () => {
+    dialogCorteza.showModal();
+  });
+}
 
 let botonMantoSup = document.getElementById("mantosup");
 let dialogMantoSup = document.getElementById("dialog-mantoSup");
