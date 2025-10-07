@@ -3,6 +3,7 @@
   background-size: cover;
   background-attachment: scroll;
   background-image: url("Fondo.png");
+  background-position-x: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +13,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
   border-radius: 15px;
-  max-width: 600px;
+  max-width: 700px;
   text-align: center;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
@@ -22,6 +23,7 @@
   background-size: cover;
   background-attachment: scroll;
   background-image: url("Fondo.png");
+  background-position-x: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +33,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
   border-radius: 15px;
-  max-width: 600px;
+  max-width: 700px;
   text-align: center;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
@@ -41,6 +43,7 @@
   background-size: cover;
   background-attachment: scroll;
   background-image: url("Fondo.png");
+  background-position-x: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +53,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
   border-radius: 15px;
-  max-width: 600px;
+  max-width: 700px;
   text-align: center;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
@@ -60,6 +63,7 @@
   background-size: cover;
   background-attachment: scroll;
   background-image: url("Fondo.png");
+  background-position-x: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +78,29 @@
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
 }
 
+#simulador {
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: scroll;
+  background-image: url("Fondo.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simulador1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 1200px;
+  text-align: center;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.7);
+}
+
 .navegacion {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
   background-color: rgba(206, 202, 202, 0.9);
   margin: 0 auto;
   justify-content: center;
@@ -83,7 +109,7 @@
   border: 5px solid rgba(137, 136, 136, 0.9);
   border-radius: 20px;
   padding: 7px;
-  width: 450px;
+  width: fit-content;
   height: 30px;
 }
 
