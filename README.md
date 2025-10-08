@@ -6,30 +6,6 @@
 
 ---
 
-## Estructura del proyecto
-
-GeoExpo/
-│
-├── /Componente Histórico
-| ├── Adiciones.js
-│ ├── Grafico.html
-| ├── Historia.html
-| ├── PaginaPrincipal.html
-| ├── Principios Físicos.html
-│ ├── Visuales.css
-│ 
-│ 
-│
-├── /
-│ ├── 
-│ ├── 
-│ ├── 
-│ └── 
-│
-└──README.md
-
----
-
 ## Tecnologías utilizadas
 
 | Componente | Tecnología / Herramienta | Descripción |
@@ -97,6 +73,51 @@ Algunas ideas para ampliar o mejorar el proyecto en el futuro:
 |--------|------|-------------|
 | **Sebastián Blanco** | Desarrollador principal | Encargado del diseño, estructura y desarrollo del sitio web.|
 | **Daniel Rincón** | Desarrollador principal | Encargado del diseño, estructura y desarrollo del simulador de ondas. |
+
+---
+
+## Fuentes y Referencias
+
+### Discontinuidad de Mohorovičić (Moho)
+- [Geology.com — *The Mohorovičić Discontinuity*](https://geology.com/articles/mohorovicic-discontinuity.shtml)
+- [Hispanopedia — *Discontinuidad de Mohorovičić*](https://es.hispanopedia.com/wiki/Discontinuidad_de_Mohorovi%C4%8Di%C4%87)
+- [Wikipedia — *Andrija Mohorovičić*](https://es.wikipedia.org/wiki/Andrija_Mohorovi%C4%8Di%C4%87)
+
+---
+
+### Discontinuidad de Repetti
+- [Prezi — *Discontinuidad de Repetti*](https://prezi.com/p/wadzkf4auiy3/discontuinidad-de-repetti/)
+- [Scribd — *Discontinuidad de Repetti*](https://www.scribd.com/document/602440021/Discontinuidad-de-Repetti)
+
+---
+
+### Discontinuidad de Gutenberg
+- [EBSCO — *Gutenberg Discovers Earth’s Mantle-Outer Core*](https://www.ebsco.com/research-starters/earth-and-atmospheric-sciences/gutenberg-discovers-earths-mantle-outer-core)
+- [Wikipedia — *Discontinuidad de Gutenberg*](https://es.wikipedia.org/wiki/Discontinuidad_de_Gutenberg)
+- [ZTF News — *La discontinuidad de Gutenberg*](https://ztfnews.wordpress.com/2014/06/04/la-dicontinuidad-de-gutenberg/)
+
+---
+
+### Discontinuidad de Lehmann
+- [Mujeres con Ciencia — *Viaje al centro de la Tierra con Inge Lehmann*](https://mujeresconciencia.com/2017/01/17/viaje-al-centro-de-la-tierra-con-inge-lehmann/)
+- [Wikipedia — *Discontinuidad de Lehmann*](https://es.wikipedia.org/wiki/Discontinuidad_de_Lehmann)
+- [American Museum of Natural History — *Inge Lehmann, Discoverer of the Earth’s Inner Core*](https://www.amnh.org/learn-teach/curriculum-collections/earth-inside-and-out/inge-lehmann-discoverer-of-the-earth-s-inner-core)
+
+---
+
+### Principios físicos (ondas sísmicas)
+- [Ambientech — *Ondas*](https://ambientech.org/onda)
+- [Byju’s — *Longitudinal and Transverse Waves*](https://byjus.com/jee/longitudinal-and-transverse-waves/)
+
+---
+
+### Otros recursos y materiales visuales
+- [Lifeder — *Profundidad y capas de la Tierra*](https://www.lifeder.com/profundidad-tierra/)
+- [Wikimedia Commons — *Earth crust cutaway (SVG)*](https://commons.wikimedia.org/wiki/File:Earth-crust-cutaway-numbered.svg)
+- [Method Draw — *Editor SVG online*](https://editor.method.ac/)
+- [Vecernji.hr — *Mohorovičićev diskontinuitet*](https://www.vecernji.hr/vijesti/mohorovicicev-diskontinuitet-najveca-je-prirodna-tvorba-koja-postoji-na-zemlji-1392197)
+- [SEG Wiki — *Beno Gutenberg*](https://wiki.seg.org/wiki/Beno_Gutenberg)
+- [Mujeres con Ciencia — *Inge Lehmann, viaje al centro de la Tierra*](https://mujeresconciencia.com/2017/01/17/viaje-al-centro-de-la-tierra-con-inge-lehmann/)
 
 ---
 

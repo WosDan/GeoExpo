@@ -91,7 +91,7 @@ h3 {
 }
 
 .imagensvg svg {
-  width: 120%;
+  width: 1200px;
   height: auto;
 }
 
@@ -103,11 +103,6 @@ h3 {
 .rectangulo:hover text {
   fill: "white";
   font-weight: bold;
-}
-
-.grafico1 svg {
-  width: 670px;
-  height: auto;
 }
 
 .rectangulo2:hover rect {
@@ -161,3 +156,8 @@ dialog button:hover {
   background: #357abd;
 }
 
+.imgH {
+  border: 2px;
+  border-radius: 10px;
+  margin: 10px;
+}
