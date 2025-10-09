@@ -118,6 +118,8 @@ Algunas ideas para ampliar o mejorar el proyecto en el futuro:
 - [Vecernji.hr — *Mohorovičićev diskontinuitet*](https://www.vecernji.hr/vijesti/mohorovicicev-diskontinuitet-najveca-je-prirodna-tvorba-koja-postoji-na-zemlji-1392197)
 - [SEG Wiki — *Beno Gutenberg*](https://wiki.seg.org/wiki/Beno_Gutenberg)
 - [Mujeres con Ciencia — *Inge Lehmann, viaje al centro de la Tierra*](https://mujeresconciencia.com/2017/01/17/viaje-al-centro-de-la-tierra-con-inge-lehmann/)
+- [Imagen de Fondo — *Generado por IA - Copilot*](https://copilot.microsoft.com/)
+- [Icono para el Simulador — *Generado por IA -*]()
 
 ---
 
