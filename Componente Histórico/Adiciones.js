@@ -20,7 +20,7 @@ if(botonCorteza){
   });
 }
 
-let botonMantoSup = document.getElementById("mantosup");
+let botonMantoSup = document.getElementById("mantoSup");
 let dialogMantoSup = document.getElementById("dialog-mantoSup");
 
 if(botonMantoSup){
@@ -89,4 +89,28 @@ let dialogDLehmann = document.getElementById("dialog-dLehmann");
 if(botonDLehmann)
   botonDLehmann.addEventListener("click", () => {
   dialogDLehmann.showModal();
+});
+
+let botonLito = document.getElementById("litosfera");
+let dialogLito = document.getElementById("dialog-litosfera");
+
+if(botonLito)
+  botonLito.addEventListener("click", () => {
+  dialogLito.showModal();
+});
+
+let botonAste = document.getElementById("astenosfera");
+let dialogAste = document.getElementById("dialog-astenosfera");
+
+if(botonAste)
+  botonAste.addEventListener("click", () => {
+  dialogAste.showModal();
+});
+
+let botonMeso = document.getElementById("mesosfera");
+let dialogMeso = document.getElementById("dialog-mesosfera");
+
+if(botonMeso)
+  botonMeso.addEventListener("click", () => {
+  dialogMeso.showModal();
 });

@@ -105,6 +105,13 @@ Algunas ideas para ampliar o mejorar el proyecto en el futuro:
 
 ---
 
+### Capas Mecánicas
+- [GEOenciclopedia — *Litosfera: qué es, capas e importancia*](https://www.geoenciclopedia.com/litosfera-que-es-capas-e-importancia-589.html)
+- [capasdelaTierra — *Astenosfera*](https://capasdelatierra.org/astenosfera/)
+- [Iceebook — *Mesosfera (Geología) - Qué es, características y composición*](https://iceebook.com/mesosfera-geologia-que-es-caracteristicas-composicion)
+
+---
+
 ### Principios físicos (ondas sísmicas)
 - [Ambientech — *Ondas*](https://ambientech.org/onda)
 - [Byju’s — *Longitudinal and Transverse Waves*](https://byjus.com/jee/longitudinal-and-transverse-waves/)
@@ -114,6 +121,7 @@ Algunas ideas para ampliar o mejorar el proyecto en el futuro:
 ### Otros recursos y materiales visuales
 - [Lifeder — *Profundidad y capas de la Tierra*](https://www.lifeder.com/profundidad-tierra/)
 - [Wikimedia Commons — *Earth crust cutaway (SVG)*](https://commons.wikimedia.org/wiki/File:Earth-crust-cutaway-numbered.svg)
+- [Vecteezy — *Structure of the Earth vector illustration (SVG)*](https://www.vecteezy.com/vector-art/216099-structure-of-the-earth-vector-illustration)
 - [Method Draw — *Editor SVG online*](https://editor.method.ac/)
 - [Vecernji.hr — *Mohorovičićev diskontinuitet*](https://www.vecernji.hr/vijesti/mohorovicicev-diskontinuitet-najveca-je-prirodna-tvorba-koja-postoji-na-zemlji-1392197)
 - [SEG Wiki — *Beno Gutenberg*](https://wiki.seg.org/wiki/Beno_Gutenberg)

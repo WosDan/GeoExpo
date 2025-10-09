@@ -53,6 +53,7 @@
   text-decoration: none;
   color: black;
   font-weight: bold;
+  font-size: smaller;
 }
 
 body {
@@ -129,6 +130,16 @@ h3 {
 }
 
 .rectangulo2:hover text {
+  fill: "white";
+  font-weight: bold;
+}
+
+.rectangulo3:hover rect {
+  fill: #2dcb91;
+  cursor: pointer;
+}
+
+.rectangulo3:hover text {
   fill: "white";
   font-weight: bold;
 }
