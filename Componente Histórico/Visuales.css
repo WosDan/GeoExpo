@@ -35,7 +35,7 @@
 
 .navegacion {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 10px;
   background-color: rgba(206, 202, 202, 0.9);
   margin: 0 auto;
@@ -46,7 +46,7 @@
   border-radius: 20px;
   padding: 7px;
   width: auto;
-  height: 30px;
+  height: auto;
 }
 
 .navegacion a {
@@ -137,8 +137,8 @@ dialog {
   border: none;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
-  font-family: 'Spectral', sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  font-family: "Spectral", sans-serif;
   line-height: 1.5;
   max-width: 400px;
 }
@@ -181,4 +181,13 @@ dialog button:hover {
   margin: 10px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.video {
+  display: block;
+  border: solid rgba(137, 136, 136, 0.9);
+  margin: 0 auto;
+  padding: 0;
+  border-radius: 15px;
+  border-width: 5px;
 }
