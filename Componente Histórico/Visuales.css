@@ -13,7 +13,7 @@
   background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
   border-radius: 15px;
-  width: 700px;
+  width: auto;
   text-align: center;
   align-items: center;
 }
@@ -29,8 +29,8 @@
 }
 
 #simulador-iframe {
-  width: 600px;
-  height: 600px;
+  width: 800px;
+  height: 800px;
 }
 
 .navegacion {
