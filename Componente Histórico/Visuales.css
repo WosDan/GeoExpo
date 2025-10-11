@@ -16,6 +16,8 @@
   width: auto;
   text-align: center;
   align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 #simulador {
@@ -45,7 +47,8 @@
   border: 5px solid rgba(137, 136, 136, 0.9);
   border-radius: 20px;
   padding: 7px;
-  width: 800px;
+  width: auto;
+  max-width: fit-content;
   height: auto;
 }
 
@@ -67,6 +70,7 @@ body {
 
 p {
   text-align: justify;
+  max-width: 1000px;
 }
 
 h1,
