@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="Visuales.css" /> <!--Se enlaza el HTML al archivo del CSS para que los cambios visuales puedan tener efecto -->
-   
+    <link rel="stylesheet" href="Visuales.css" />
+    <!--Se enlaza el HTML al archivo del CSS para que los cambios visuales puedan tener efecto -->
+
     <!--Se enlaza el HTML a una fuente de texto externa -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,13 +14,12 @@
       rel="stylesheet"
     />
     <title>Principios Fisicos</title>
-    <link rel="icon" type="image/png" href="src/img/GeoExpo.png"/>
+    <link rel="icon" type="image/png" href="src/img/GeoExpo.png" />
   </head>
   <body>
-
     <!--Se establecen clases para modificar solamente aquellos elementos/bloques que hagan parte de una misma tematica/parte, e IDs para aquellos elementos unicos, con el CSS o JS-->
     <section class="seccion">
-      <div class ="marco">
+      <div class="marco">
         <!--Este es el panel de navegación para las diferentes páginas del componente histórico -->
         <nav class="navegacion">
           <a href="PaginaPrincipal.html">Inicio</a> |
@@ -34,19 +34,17 @@
         <!--Contenido de la seccion-->
         <h2>Principios físicos empleados</h2>
 
-
         <!--Se encierra cada explicacion de los principios fisicos en un apartado diferente para despues organizarlos en el menu desplegable, se realiza en el archivo de JS-->
         <article>
           <h3 class="menu">Ondas</h3>
           <div class="desple">
             <p>
-              Físicamente, una onda es una perturbación que transmite energia a
-              través de un medio sin transportar materia. Es
-              decir, que la energía viaja a través del material, pero las
-              partículas de este solo vibran alrededor de su posición original,
-              sin viajar con la onda. En el contexto de la sismología, los
-              terremotos generan ondas que se propagan por el
-              interior de la Tierra, permitiendo estudiar su estructura.
+              Una onda es un “pulso” de energía que se desplaza a través de los
+              materiales de la Tierra. Esta energía solamente hace vibrar a las
+              partículas del material, no se lo lleva consigo. En el contexto de
+              la sismología, los terremotos generan ondas que se propagan por el
+              interior de la Tierra, permitiendo estudiar su estructura. (What
+              are seismic waves? 2025)
             </p>
           </div>
         </article>
@@ -63,23 +61,26 @@
               <b>Ondas P (Primarias):</b> Son ondas longitudinales. Esto
               significa que las partículas del material vibran en la misma
               dirección en la que la onda se propaga. Son las más rápidas, por
-              lo que son las primeras en ser detectadas por los sismógrafos, y
-              pueden viajar a través de sólidos, líquidos y gases.
+              lo que son las primeras en ser detectadas por los sismógrafos
+              (Instrumento que registra los movimientos de la Tierra, como los
+              terremotos), y pueden viajar a través de sólidos, líquidos y
+              gases.
               <br />
               <br />
               <b>Ondas S (Secundarias):</b> Son ondas transversales. En este
-              caso, las particulas vibran de forma perpendicular a la
-              propagación de la onda. Su velocidad es menor, lo que hace que
-              lleguen después que las P. Sin embargo, su característica más
-              crucial es que no pueden propagarse en medios líquidos o gaseosos,
-              ya que estos fluidos no pueden soportar este tipo de vibración.
+              caso, las partículas vibran de forma perpendicular a la
+              propagación de la onda, como las vibraciones de la cuerda de una
+              guitarra. Su velocidad es menor, lo que hace que lleguen después
+              que las P. Sin embargo, su característica más crucial es que no
+              pueden propagarse en medios líquidos o gaseosos, ya que estos
+              fluidos no pueden soportar este tipo de vibración.
               <br />
               <br />
               <b>Utilidad:</b> El comportamiento diferente de estas ondas fue
               muy importante. La observación de que las ondas S no lograban
-              atravesar ciertas regiones del planeta proporcionó la evidencia
-              directa de la existencia de una capa líquida en el núcleo externo
-              terrestre.
+              atravesar ciertas regiones del planeta proporcionó la evidencia de
+              que existe una capa líquida en el núcleo externo de la tierra.
+              (Desonie. 2025)
             </p>
           </div>
         </article>
@@ -105,11 +106,11 @@
               velocidad de propagación.
               <br />
               <br />
-              <b>Utilidad:</b> La deteccion y el analisis preciso de las ondas
+              <b>Utilidad:</b> La detección y el análisis preciso de las ondas
               reflejadas y refractadas permitieron a los científicos identificar
-              la profundidad de las discontinuidades.
-              El estudio de estos fenómenos fue esencial para definir los
-              límites entre las capas.
+              la profundidad de las discontinuidades. El estudio de estos
+              fenómenos fue esencial para definir los límites entre las capas.
+              (Wang, 2023)
             </p>
           </div>
         </article>
@@ -136,32 +137,54 @@
               ondas P a una profundidad específica permite saber la transición a
               una capa más densa. De igual modo, la drástica reducción en la
               velocidad de las ondas P y la desaparición de las ondas S permitió
-              conocer la presencia del núcleo externo líquido.
+              conocer la presencia del núcleo externo líquido. (Cardenas, s/f)
             </p>
           </div>
         </article>
 
         <article>
-          <h3 class="menu">Ley de Hooke, elasticidad de los cuerpos y el rebote elástico</h3>
+          <h3 class="menu">
+            Ley de Hooke, elasticidad de los cuerpos y el rebote elástico
+          </h3>
           <div class="desple">
             <p>
-              Los cuerpos reales son elásticos y se deforman. Estas alteraciones en la forma se ven influenciadas por el esfuerzo, que caracteriza la intensidad de las fuerzas que causan el cambio de forma; al mismo tiempo, la deformación describe el cambio resultante, cuando el esfuerzo y deformación son pequeños es común que sean directamente proporcionales, y este constante de proporcionalidad se llama proporcionalidad módulo de elasticidad. Esta proporcionalidad se denomina ley de Hooke. 
+              Los cuerpos reales son elásticos y se deforman. Estas alteraciones
+              en la forma se ven influenciadas por el esfuerzo, el cual
+              caracteriza la intensidad de las fuerzas que causan el cambio de
+              forma, como un resorte al ser estirado, entre más fuerza más se
+              estira; al mismo tiempo, la deformación describe el cambio
+              resultante, la deformación elástica que afecta a un cuerpo es
+              proporcional al esfuerzo que produce la deformación, a esto se le
+              llama proporcionalidad módulo de elasticidad, que se da siempre y
+              cuando no se exceda el límite de elasticidad. A la
+              proporcionalidad constante entre estos se le denomina ley de
+              Hooke. (GL1 Ley de Hooke, 2017)
               <br />
               <br />
               <i>Esfuerzo / Deformación = Módulo de elasticidad</i>
               <br />
               <br />
-              Un objeto está en tensión cuando se aplican fuerzas de igual magnitud F en direcciones opuestas en los extremos. La deformación por tensión es el estiramiento por unidad de longitud. Si las fuerzas en los extremos de la barra empujan en vez de tirar esta estopa en compresión. (Young, Freedman, & Ford, 2016, p. 389)
+              Un objeto está en tensión cuando se aplican fuerzas de igual
+              magnitud F en direcciones opuestas en los extremos. La deformación
+              por tensión es el estiramiento por unidad de longitud. Si las
+              fuerzas en los extremos de la barra empujan en vez de tirar esta
+              estopa en compresión. (Young, Freedman, & Ford, 2016, p. 389)
               <br />
               <br />
-              Las placas tectónicas son grandes cuerpos elásticos, estas están en constante movimiento y ejercen fuerzas entre sí. Cuento estas actúan en los bordes de las placas estas se deforman lentamente debido a la presión. Mientras se deforma acumula energía potencial, como lo establece la Ley de Hooke. Cuando el esfuerzo supera el límite elástico ocurre una ruptura repentina liberando la energía acumulada en ondas sísmicas. Esto se conoce como rebote elástico, propuesto por H.F. Reid después del terremoto de San Francisco de 1906 (Tarbuck, Lutgens, & Tasa, 2005). 
+              A todo esto, llegamos hasta las placas tectónicas, las cuales son
+              grandes cuerpos elásticos que están en constante movimiento y
+              ejercen fuerzas entre sí. Cuando estas actúan en los bordes de las
+              placas se deforman lentamente debido a la presión, acumulando así
+              energía potencial. Según la Ley de Hooke, cuando el esfuerzo
+              supera el límite elástico ocurre una ruptura repentina liberando
+              la energía acumulada en ondas sísmicas. Esto se conoce como rebote
+              elástico, propuesto por H.F. Reid después del terremoto de San
+              Francisco de 1906 (Tarbuck, Lutgens, & Tasa, 2005).
             </p>
           </div>
         </article>
       </div>
     </section>
-
-    
 
     <!--Se enlaza el HTML al archivo del JavaScript para que las adiciones puedan tener efecto -->
     <script src="Adiciones.js" defer></script>
